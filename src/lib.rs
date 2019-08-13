@@ -1,9 +1,6 @@
 #[macro_use]
 extern crate bitflags;
-extern crate num_traits;
 extern crate spirv_headers;
-#[macro_use]
-extern crate serde_derive;
 
 use num_traits::cast::FromPrimitive;
 

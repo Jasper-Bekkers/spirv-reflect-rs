@@ -1,4 +1,4 @@
-#[derive(Debug, Copy, Clone, Serialize, PartialEq)]
+#[derive(Debug, Copy, Clone, PartialEq)]
 pub enum ReflectResourceType {
     Undefined,
     Sampler,

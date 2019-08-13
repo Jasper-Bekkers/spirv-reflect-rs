@@ -12,7 +12,7 @@ pub use self::resource::*;
 pub use self::traits::*;
 pub use self::variable::*;
 
-#[derive(Debug, Copy, Clone, Serialize, PartialEq)]
+#[derive(Debug, Copy, Clone, PartialEq)]
 pub enum ReflectGenerator {
     Unknown,
     KhronosLlvmSpirvTranslator,

@@ -42,10 +42,7 @@ fn main() {
 
             println!("Entry points (yaml)");
             let entry_points = module.enumerate_entry_points().unwrap();
-            for entry_point in &entry_points {
-                let output = serde_yaml::to_string(&entry_point).unwrap();
-                println!("{}", output);
-            }
+            dbg!(entry_points);
 
             let _code = module.get_code();
         }
