@@ -1295,10 +1295,6 @@ pub const SpvReflectShaderStageFlagBits_SPV_REFLECT_SHADER_STAGE_INTERSECTION_BI
     SpvReflectShaderStageFlagBits = 4096;
 pub const SpvReflectShaderStageFlagBits_SPV_REFLECT_SHADER_STAGE_CALLABLE_BIT_NV:
     SpvReflectShaderStageFlagBits = 8192;
-pub const SpvReflectShaderStageFlagBits_SPV_REFLECT_SHADER_STAGE_TASK_BIT_NV:
-    SpvReflectShaderStageFlagBits = 16384;
-pub const SpvReflectShaderStageFlagBits_SPV_REFLECT_SHADER_STAGE_MESH_BIT_NV:
-    SpvReflectShaderStageFlagBits = 32768;
 #[doc = " @enum SpvReflectShaderStageFlagBits"]
 pub type SpvReflectShaderStageFlagBits = i32;
 pub const SpvReflectGenerator_SPV_REFLECT_GENERATOR_KHRONOS_LLVM_SPIRV_TRANSLATOR:
