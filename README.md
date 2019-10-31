@@ -15,6 +15,14 @@ This crate provides an FFI layer and idiomatic rust wrappers for the excellent [
 - [Documentation](https://docs.rs/spirv-reflect)
 - [Release Notes](https://github.com/gwihlidal/spirv-reflect-rs/releases)
 
+## About this fork
+
+This is a fork that is kept up-to-date with upstream but with some minor changes to reduce it's impact on compilation times.
+
+* The serde dependency is completely removed.
+* The spirv_headers dependency is more up to date (which has removed / bumped some major dependencies).
+* The `cc` dependency is compiled without the `parallel` feature as to not have to drag in `rayon` and other parallelization features. spirv-reflect only needs to compile a single C file so having this feature enabled doesn't make a lot of sense to begin with.
+
 ## Features
 
 * Extract descriptor bindings from SPIR-V bytecode, to assist in the generation of Vulkan descriptor set and pipeline layouts.
